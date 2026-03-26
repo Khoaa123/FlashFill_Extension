@@ -24,3 +24,9 @@ web-ext.config.ts
 *.njsproj
 *.sln
 *.sw?
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Local notes
+AI_CHANGELOG.md

@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "wxt",
+    "backend:dev": "python -m uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000",
+    "backend:start": "python -m uvicorn backend.main:app --host 0.0.0.0 --port 8000",
     "dev:firefox": "wxt -b firefox",
     "build": "wxt build",
     "build:firefox": "wxt build -b firefox",
